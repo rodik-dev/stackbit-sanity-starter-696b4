@@ -9,6 +9,7 @@ nodeVersion: '16'
 # The "buildCommand" and the "publishDir" properties are used to configure the
 # serverless deployment platform when Stackbit creates a new site from this theme.
 buildCommand: npm run build
+devCommand: node ../../node_modules/.bin/next dev -- --port {PORT} --hostname {HOSTNAME}
 publishDir: out
 
 # The "import" object defines how Stackbit should provision Sanity when creating
