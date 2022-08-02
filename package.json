@@ -1,0 +1,32 @@
+{
+  "name": "@takeda/exp",
+  "version": "0.0.0",
+  "license": "MIT",
+  "homepage": "https://github.com/oneTakeda/takeda-exp-components",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/oneTakeda/takeda-exp-components.git"
+  },
+  "publishConfig": {
+    "access": "restricted",
+    "registry": "https://takedaazuseast.jfrog.io/artifactory/api/npm/exp-npm-local/"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "publish-interactive": "np --no-tests --branch develop",
+    "setup:env": "npm run setup:env --workspace=playground-app",
+    "lint-staged": "lint-staged --concurrent false",
+    "prepare": "node ./prepare.js",
+    "release": "changeset publish"
+  },
+  "devDependencies": {
+    "@changesets/cli": "^2.23.2",
+    "@trivago/prettier-plugin-sort-imports": "^3.2.0",
+    "husky": "^8.0.1",
+    "lint-staged": "^13.0.3",
+    "np": "^7.6.1",
+    "prettier": "^2.7.1"
+  }
+}
