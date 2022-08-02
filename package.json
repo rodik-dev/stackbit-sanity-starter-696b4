@@ -1,0 +1,12 @@
+{
+  "name": "test",
+  "version": "0.0.1",
+  "license": "MIT",
+  "scripts": {
+  },
+  "devDependencies": {
+    "husky": "^8.0.1",
+    "lint-staged": "^13.0.3",
+    "prettier": "^2.7.1"
+  }
+}

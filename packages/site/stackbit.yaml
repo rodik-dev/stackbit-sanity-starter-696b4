@@ -1,7 +1,7 @@
 # The stackbit.yaml file lets you define the characteristic of your website
 # needed to make your theme, or project, work with Stackbit. For more info about
 # stackbit.yaml configuration visit https://www.stackbit.com/docs/stackbit-yaml/
-stackbitVersion: ~0.4.0
+stackbitVersion: ~0.5.0
 ssgName: nextjs
 cmsName: sanity
 nodeVersion: '16'
@@ -16,9 +16,7 @@ publishDir: out
 import:
   type: sanity
   contentFile: sanity-export/export.tar.gz
-  sanityStudioPath: studio
-  deployStudio: true
-  deployGraphql: false
+  sanityStudioPath: packages/studio
   projectIdEnvVar: SANITY_PROJECT_ID
   datasetEnvVar: SANITY_DATASET
   tokenEnvVar: SANITY_TOKEN
