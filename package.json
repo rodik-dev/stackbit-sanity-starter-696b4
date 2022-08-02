@@ -3,11 +3,6 @@
   "version": "0.0.1",
   "license": "MIT",
   "scripts": {
-    "publish-interactive": "np --no-tests --branch develop",
-    "setup:env": "npm run setup:env --workspace=playground-app",
-    "lint-staged": "lint-staged --concurrent false",
-    "prepare": "node ./prepare.js",
-    "release": "changeset publish"
   },
   "devDependencies": {
     "@changesets/cli": "^2.23.2",
