@@ -2,13 +2,6 @@
   "name": "test",
   "version": "0.0.1",
   "license": "MIT",
-  "publishConfig": {
-    "access": "restricted",
-    "registry": "https://takedaazuseast.jfrog.io/artifactory/api/npm/exp-npm-local/"
-  },
-  "workspaces": [
-    "packages/*"
-  ],
   "scripts": {
     "publish-interactive": "np --no-tests --branch develop",
     "setup:env": "npm run setup:env --workspace=playground-app",
