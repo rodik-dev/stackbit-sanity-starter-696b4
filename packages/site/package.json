@@ -27,7 +27,7 @@
     "sourcebit-target-next": "^0.6.2",
     "webpack": "^5.22.0",
     "ws": "^7.4.3",
-    "rodik-dev/stackbit-sanity-starter-696b4": "*"
+    "starter-nextjs-theme": "git+https://github.com/rodik-dev/local-starter-m1-e5e0f.git"
   },
   "devDependencies": {
     "@sanity/client": "^2.2.6",
