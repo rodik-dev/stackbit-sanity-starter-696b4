@@ -12,7 +12,9 @@ buildCommand: npm run build
 devCommand: node ./node_modules/.bin/next dev -- --port {PORT} --hostname {HOSTNAME}
 publishDir: out
 
-
+presetSource:
+  type: file
+  
 
 # The "import" object defines how Stackbit should provision Sanity when creating
 # a new site from this theme via https://app.stackbit.com/create.
