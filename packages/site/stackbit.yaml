@@ -13,8 +13,9 @@ devCommand: node ./node_modules/.bin/next dev -- --port {PORT} --hostname {HOSTN
 publishDir: out
 
 presetSource:
-  type: file
-  
+  type: files
+  presetDirs:
+    - .stackbit/presets
 
 # The "import" object defines how Stackbit should provision Sanity when creating
 # a new site from this theme via https://app.stackbit.com/create.
