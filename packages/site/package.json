@@ -26,7 +26,8 @@
     "sourcebit-source-sanity": "^0.4.3",
     "sourcebit-target-next": "^0.6.2",
     "webpack": "^5.22.0",
-    "ws": "^7.4.3"
+    "ws": "^7.4.3",
+    "rodik-dev/"
   },
   "devDependencies": {
     "@sanity/client": "^2.2.6",
